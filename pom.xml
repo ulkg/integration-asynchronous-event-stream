@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.springframework</groupId>
+    <artifactId>integration</artifactId>
+    <version>0.1.0</version>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>core-banking-service</module>
+        <module>customer-service</module>
+        <module>balance-service</module>
+        <module>money-laundering-service</module>
+    </modules>
+</project>
